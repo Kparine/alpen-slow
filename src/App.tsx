@@ -1,18 +1,18 @@
 import React from "react";
-import logo from "./images/cabin-one.jpg";
 import "./App.css";
 import Header from "./components/header/header";
 import About from "./components/about/about";
-
-const styles = {};
+import Weather from "./components/weather/weather";
 
 function App() {
 	return (
-		<div className="App" style={styles}>
+		<div className="App">
 			<div className="App-content">
-				<Header id="hi" msg="hi" />
-				<About />
-				{/* <img src={logo} className="App-logo" alt="logo" /> */}
+				<Header />
+				<div className="Body-container">
+					<About />
+					<Weather />
+				</div>
 			</div>
 		</div>
 	);

@@ -1,15 +1,11 @@
 import React from "react";
-import "./Header.css";
+import "./header.css";
 
-interface HeaderProps {
-	id: string;
-	msg: string;
-}
-
-const Header: React.FC<HeaderProps> = () => {
+const Header: React.FunctionComponent = () => {
 	return (
 		<div className="header-container">
-			<div className="header-content">Alpen Glow</div>
+			<div className="header-content title">Alpen Glow</div>
+			<div className="header-content wx-content wx"></div>
 		</div>
 	);
 };

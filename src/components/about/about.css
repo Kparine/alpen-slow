@@ -1,3 +1,23 @@
 .about-container {
-	background: #000000;
+	display: flex;
+	min-width: 100%;
+	min-height: 100px;
+	opacity: 0.8;
+	margin: 30px 30px;
+}
+.about-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: rgb(182, 181, 181);
+	/* min-width: 200px; */
+	/* min-height: 100px; */
+}
+
+.learn-container {
+	display: flex;
+}
+.learn-content {
+	display: flex;
 }
